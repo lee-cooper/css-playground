@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+}
+.test-min {
+  background-color: grey;
+  width: min(50%, 400px);
+  height: 25rem;
+}
