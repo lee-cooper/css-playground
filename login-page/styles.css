@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #248083;
+  --secondary-color: #636363;
+  --white-color: #ffffff;
+  --black-color: #000000;
+}
+
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
@@ -16,9 +23,13 @@ p {
 }
 
 ::selection {
-  color: white;
-  background: #5500c0 !important;
+  color: var(--white-color);
+  background: var(--primary-color) !important;
   padding: 0.2rem !important;
+}
+
+.login-wrapper {
+  min-width: 15rem;
 }
 
 .login-wrapper > h1 {
@@ -34,54 +45,55 @@ p {
 
 .login-wrapper input {
   border: none;
-  border-bottom: 2px solid #636363;
+  border-bottom: 2px solid var(--secondary-color);
   margin-bottom: 1.5rem;
   height: 2.5rem;
   font-size: inherit;
 }
 
 .login-wrapper input:focus {
-  border-bottom: 3px solid #5500c0;
+  border-bottom: 3px solid var(--primary-color);
   outline: none;
 }
 
 .login-wrapper label {
   display: flex;
   flex-direction: column;
-  color: #636363;
+  color: var(--secondary-color);
 }
 
 .login-wrapper p {
-  color: #636363;
+  color: var(--secondary-color);
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .login-wrapper p a {
-  color: #5500c0;
+  color: var(--primary-color);
   font-weight: bold;
   text-decoration: none;
-  border-bottom: 1px dashed #5500c0;
+  border-bottom: 1px dashed var(--primary-color);
   transition-duration: 0.5s;
   padding: 0 0.2rem;
 }
 
 .login-wrapper p a:focus,
 .login-wrapper p a:hover {
-  background-color: #5500c0;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--white-color);
   outline: none;
 }
 
 .login-wrapper button {
   display: inline-block;
   padding: 0.75rem 1rem;
-  background-color: black;
-  color: white;
+  background-color: var(--black-color);
+  color: var(--white-color);
   border: none;
   width: 7rem;
   align-self: center;
 }
 
 .login-wrapper button:focus {
-  outline: #5500c0 1px solid;
+  outline: var(--primary-color) 1px solid;
 }
