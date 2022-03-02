@@ -11,6 +11,11 @@ body {
   margin: 0;
 }
 
+::selection {
+  color: black;
+  background: #e9d8ff !important;
+}
+
 .login-wrapper > h1 {
   font-size: 1.5rem;
   text-align: center;
@@ -67,5 +72,5 @@ body {
 }
 
 .login-wrapper button:focus {
-  outline: #5500c0 2px solid;
+  outline: #5500c0 1px solid;
 }
