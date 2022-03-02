@@ -11,9 +11,14 @@ body {
   margin: 0;
 }
 
+p {
+  line-height: 1.8;
+}
+
 ::selection {
-  color: black;
-  background: #e9d8ff !important;
+  color: white;
+  background: #5500c0 !important;
+  padding: 0.2rem !important;
 }
 
 .login-wrapper > h1 {
@@ -36,7 +41,7 @@ body {
 }
 
 .login-wrapper input:focus {
-  border-bottom: 2px solid #5500c0;
+  border-bottom: 3px solid #5500c0;
   outline: none;
 }
 
@@ -55,10 +60,16 @@ body {
   color: #5500c0;
   font-weight: bold;
   text-decoration: none;
+  border-bottom: 1px dashed #5500c0;
+  transition-duration: 0.5s;
+  padding: 0 0.2rem;
 }
 
-.login-wrapper p a:focus {
-  outline: black 2px solid;
+.login-wrapper p a:focus,
+.login-wrapper p a:hover {
+  background-color: #5500c0;
+  color: white;
+  outline: none;
 }
 
 .login-wrapper button {
