@@ -1,10 +1,50 @@
 $color-black: black;
 $color-pink: pink;
 
-article {
-  a {
+* {
+  font-family: 'Titillium Web', sans-serif;
+  outline-color: $color-pink;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  color: $color-pink;
+  padding: 0 0.3rem;
+  transition: 0.5s;
+  text-decoration: underline dashed $color-pink;
+
+  &:hover {
+    background-color: $color-pink;
     color: $color-black;
     text-decoration: underline dashed $color-black;
+  }
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  width: clamp(20rem, 50vw, 70rem);
+
+  p {
+    font-size: 1.1rem;
+    margin: 0 0 1rem 0;
+    line-height: 1.5;
   }
 }
 

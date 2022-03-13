@@ -7,6 +7,13 @@
           content="IE=edge">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600&display=swap"
+          rel="stylesheet">
     <title>SCSS Playground</title>
     <link rel="stylesheet"
           href="./dist/main.css">
@@ -16,12 +23,15 @@
   <body>
     <header></header>
     <main>
-      <h1>How to Use SCSS</h1>
       <article>
+        <h1>How to Use SCSS</h1>
         <p>Learning how to use SCSS and why! <a href="https://sass-lang.com/guide"
              target="_blank">Documentation link</a>.</p>
         <section>
           <h2>Preprocessor</h2>
+          <p>Sass (or SCSS) provides additional features that are not present in vanilla CSS, such as nesting, mixins
+            , inheritance, and other feature that make writing robust and scalable CSS easier. It accomplishes this by
+            compiling sass / scss files into regular css.</p>
           <p>The pre-processor can be run using the <code>npx sass</code> command with a input file(s) and an output
             destination file specified.</p>
           <p>For example, I started out using <code>npx sass --watch scss-learning/styles.scss main.css</code>, which
