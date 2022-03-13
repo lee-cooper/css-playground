@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>SCSS Playground</title>
+    <link rel="stylesheet"
+          href="./dist/main.css">
+
+  </head>
+
+  <body>
+    <header></header>
+    <main>
+      <h1>How to Use SCSS</h1>
+      <article>
+        <p>Learning how to use SCSS and why! <a href="https://sass-lang.com/guide"
+             target="_blank">Documentation link</a>.</p>
+        <section>
+          <h2>Preprocessor</h2>
+          <p>The pre-processor can be run using the <code>npx sass</code> command with a input file(s) and an output
+            destination file specified.</p>
+          <p>For example, I started out using <code>npx sass --watch scss-learning/styles.scss main.css</code>, which
+            with the <code>--watch</code> flag listened for any changes in the input files and outputted the file to a
+            <code>main.css</code> file. Problem is, it put this at the root of the project, rather than in this file
+            folder.
+          </p>
+          <p>I then learned that you can watch file folders for any changes in the input files, and also specify an
+            output directory to compile the <code>scss</code> styles to.</p>
+          <p>I ended up using this command to do this:
+            <code>npx sass --watch scss-learning/styles.scss:scss-learning/dist/main.css</code>
+          </p>
+        </section>
+        <section>
+          <h2>Nesting Rules</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, error excepturi aut laudantium porro
+            perspiciatis amet vel doloremque blanditiis consectetur eaque iusto minima ut mollitia sit nulla deserunt
+            aperiam dicta officiis, consequatur quia nobis? Voluptatum porro dolores fugit odio eaque ex adipisci
+            assumenda, officiis quis deleniti in dignissimos repellendus ullam eius repudiandae quaerat eum quasi nam
+            optio ducimus doloribus! Ratione aperiam quaerat deserunt animi explicabo dolore omnis, a, quasi corrupti
+            voluptates assumenda quidem minus harum.</p>
+        </section>
+        <section>
+          <h2>Variables</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur molestiae aliquam assumenda ex vel
+            expedita perferendis, quisquam voluptatibus minus, ducimus voluptate id laborum, nihil doloremque nemo rerum
+            omnis error fuga aliquid aperiam nulla magni ipsam quos? Maiores dolorum voluptates fugit laborum debitis
+            molestias dicta soluta nisi culpa aliquid, incidunt quis fuga explicabo sunt. Id deleniti temporibus
+            molestiae porro, culpa, similique labore obcaecati doloremque distinctio repellat assumenda deserunt
+            provident? Modi sint ipsa, voluptatum, beatae officiis molestiae cumque sapiente labore quos praesentium
+            eius natus?</p>
+        </section>
+      </article>
+    </main>
+    <footer></footer>
+  </body>
+
+</html>

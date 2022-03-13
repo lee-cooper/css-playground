@@ -1,0 +1,12 @@
+article a {
+  color: black;
+  text-decoration: underline dashed black;
+}
+
+article code {
+  background-color: pink;
+  color: black;
+  padding: 0.1rem;
+}
+
+/*# sourceMappingURL=main.css.map */

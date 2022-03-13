@@ -1,0 +1,17 @@
+$color-black: black;
+$color-pink: pink;
+
+article {
+  a {
+    color: $color-black;
+    text-decoration: underline dashed $color-black;
+  }
+}
+
+article {
+  code {
+    background-color: $color-pink;
+    color: $color-black;
+    padding: 0.1rem;
+  }
+}

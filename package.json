@@ -1,0 +1,22 @@
+{
+  "name": "css-playground",
+  "version": "0.0.0",
+  "description": "Playground for CSS concepts, libraries, and other cool stuff!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lee-cooper/css-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lee-cooper/css-playground/issues"
+  },
+  "homepage": "https://github.com/lee-cooper/css-playground#readme",
+  "dependencies": {
+    "sass": "^1.49.9"
+  }
+}
