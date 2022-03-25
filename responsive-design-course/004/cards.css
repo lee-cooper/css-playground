@@ -1,0 +1,50 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  line-height: 1.55;
+}
+
+header {
+  background-color: lightgoldenrodyellow;
+  text-align: center;
+  padding: 1rem;
+}
+
+header > h1 {
+  font-size: 1.3rem;
+}
+
+section {
+  padding: 1rem;
+  box-shadow: 0 0 7px 0 rgb(196, 196, 196);
+  background-color: rgb(240, 240, 240);
+  border-radius: 3px;
+}
+
+section > h2 {
+  color: #515151;
+  margin: 1rem 0 0;
+}
+
+section p {
+  margin-top: 1rem;
+  color: #515151;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  gap: 1rem;
+  margin: 1rem;
+  min-height: calc(100vh - 2rem);
+}
+
+footer {
+  height: 2rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: lightpink;
+}
