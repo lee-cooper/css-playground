@@ -1,0 +1,40 @@
+/* multiple media queries can be used, but this leads to a jumpy behavior */
+/* @media (min-width: 30em) {
+  html {
+    font-size: 125%;
+  }
+}
+
+@media (min-width: 40em) {
+  html {
+    font-size: 150%;
+  }
+}
+
+@media (min-width: 50em) {
+  html {
+    font-size: 175%;
+  }
+}
+
+@media (min-width: 60em) {
+  html {
+    font-size: 200%;
+  }
+} */
+
+/* using the vw (viewport width) is a more responsive approach, as the 
+browser will do the calculations to present the correct font size.
+- at extremes (very small / large screen sizes), the font size can become
+  too small or too big
+*/
+/* html {
+  font-size: calc(0.75rem + 1.5vw);
+} */
+
+/* using clamp() allows setting a calculated preferred value, and a 
+minimum and maximum value */
+
+html {
+  font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
+}
