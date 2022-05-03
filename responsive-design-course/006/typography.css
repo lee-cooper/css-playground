@@ -38,3 +38,15 @@ minimum and maximum value */
 html {
   font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
 }
+
+article {
+  max-inline-size: 66ch;
+  line-height: 1.65;
+  margin: auto;
+}
+
+blockquote {
+  max-inline-size: 45ch;
+  line-height: 2;
+  margin: auto;
+}
