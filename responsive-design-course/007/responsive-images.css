@@ -1,0 +1,17 @@
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 2/1;
+  object-fit: cover;
+}
+
+/* 
+  max-inline-size: 100%;
+  - logical property for max-width
+
+  block-size: auto;
+  - This ensures that the aspect ratio remains constant
+
+
+
+*/
